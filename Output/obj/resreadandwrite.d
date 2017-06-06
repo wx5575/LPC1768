@@ -1,0 +1,9 @@
+.\output\obj\resreadandwrite.o: DEV\AT24CXX\resreadandwrite.c
+.\output\obj\resreadandwrite.o: DEV\AT24CXX\resreadandwrite.h
+.\output\obj\resreadandwrite.o: .\BSP\bsp_cpuconfig.h
+.\output\obj\resreadandwrite.o: DEV\AT24CXX\readandwrite.h
+.\output\obj\resreadandwrite.o: .\BSP\bsp_gpio.h
+.\output\obj\resreadandwrite.o: .\lpc17xx\LPC17xx.h
+.\output\obj\resreadandwrite.o: .\lpc17xx\core_cm3.h
+.\output\obj\resreadandwrite.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\resreadandwrite.o: .\lpc17xx\system_LPC17xx.h

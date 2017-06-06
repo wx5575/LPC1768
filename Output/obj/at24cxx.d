@@ -1,0 +1,9 @@
+.\output\obj\at24cxx.o: DEV\AT24CXX\at24cxx.c
+.\output\obj\at24cxx.o: DEV\AT24CXX\at24cxx.h
+.\output\obj\at24cxx.o: .\BSP\bsp_gpio.h
+.\output\obj\at24cxx.o: .\lpc17xx\LPC17xx.h
+.\output\obj\at24cxx.o: .\lpc17xx\core_cm3.h
+.\output\obj\at24cxx.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\at24cxx.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\at24cxx.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\at24cxx.o: .\Resource\delay.h

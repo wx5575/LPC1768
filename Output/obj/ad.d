@@ -1,0 +1,10 @@
+.\output\obj\ad.o: DEV\AD\AD.c
+.\output\obj\ad.o: DEV\AD\AD.h
+.\output\obj\ad.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\ad.o: .\lpc17xx\lpc17xx.h
+.\output\obj\ad.o: .\lpc17xx\core_cm3.h
+.\output\obj\ad.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\ad.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\ad.o: .\Resource\delay.h
+.\output\obj\ad.o: .\BSP\bsp_gpio.h
+.\output\obj\ad.o: .\Test\test.h

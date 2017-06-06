@@ -1,0 +1,10 @@
+.\output\obj\readandwrite.o: DEV\AT24CXX\readandwrite.c
+.\output\obj\readandwrite.o: DEV\AT24CXX\readandwrite.h
+.\output\obj\readandwrite.o: .\BSP\bsp_gpio.h
+.\output\obj\readandwrite.o: .\lpc17xx\LPC17xx.h
+.\output\obj\readandwrite.o: .\lpc17xx\core_cm3.h
+.\output\obj\readandwrite.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\readandwrite.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\readandwrite.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\readandwrite.o: .\Resource\Delay.h
+.\output\obj\readandwrite.o: .\Resource\datavalue.h

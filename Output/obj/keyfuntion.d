@@ -1,0 +1,16 @@
+.\output\obj\keyfuntion.o: DEV\KEY\keyfuntion.c
+.\output\obj\keyfuntion.o: DEV\KEY\keyfuntion.h
+.\output\obj\keyfuntion.o: .\BSP\bsp_gpio.h
+.\output\obj\keyfuntion.o: .\lpc17xx\LPC17xx.h
+.\output\obj\keyfuntion.o: .\lpc17xx\core_cm3.h
+.\output\obj\keyfuntion.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\keyfuntion.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\keyfuntion.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\keyfuntion.o: .\DEV\LCD\lcd.h
+.\output\obj\keyfuntion.o: DEV\KEY\move.h
+.\output\obj\keyfuntion.o: .\Resource\datavalue.h
+.\output\obj\keyfuntion.o: .\Panel\panel.h
+.\output\obj\keyfuntion.o: .\Resource\stringhandle.h
+.\output\obj\keyfuntion.o: .\DEV\AT24CXX\readandwrite.h
+.\output\obj\keyfuntion.o: D:\Keil\ARM\RV31\INC\string.h
+.\output\obj\keyfuntion.o: .\DEV\AT24CXX\resreadandwrite.h

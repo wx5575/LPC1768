@@ -1,0 +1,461 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\¹¤×÷\KEIL\UCOS_II_V289\UCOS_II_V289.uvproj
+Project File Date:  12/12/2012
+
+<h2>Output:</h2>
+Build target 'UCOS_II_V289'
+compiling core_cm3.c...
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling main.c...
+APP\main.c(21): warning:  #223-D: function "IntDisAll" declared implicitly
+APP\main.c:       IntDisAll();
+APP\main.c:       ^
+APP\main.c: APP\main.c: 1 warning, 0 errors
+compiling os_tmr.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_dbg.c...
+uC-CPU\os_dbg.c(32): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(32): error:  #101: "INT16U" has already been declared in the current scope
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:                    ^
+uC-CPU\os_dbg.c(32): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(36): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(36): error:  #101: "INT32U" has already been declared in the current scope
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:                    ^
+uC-CPU\os_dbg.c(36): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(38): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventEn           = OS_EVENT_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(38): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventEn           = OS_EVENT_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(39): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(39): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(40): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(40): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(42): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(42): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(43): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(43): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(48): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(48): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(51): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagEn            = OS_FLAG_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(51): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagEn            = OS_FLAG_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(53): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(53): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(54): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(54): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(55): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(55): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(61): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(61): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(62): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(62): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c: uC-CPU\os_dbg.c: 0 warnings, 30 errors
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(33): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    33 00000000     PUBLIC  OS_CPU_SR_Save                                      ; Functions declared in this file
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(34): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    34 00000000     PUBLIC  OS_CPU_SR_Restore
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(35): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    35 00000000     PUBLIC  OSStartHighRdy
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(36): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    36 00000000     PUBLIC  OSCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(37): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    37 00000000     PUBLIC  OSIntCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(38): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    38 00000000     PUBLIC  OS_CPU_PendSVHandler
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(53): error: A1163E: Unknown opcode RSEG , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    53 00000000         RSEG CODE:CODE:NOROOT(2)
+uC-CPU\os_cpu_a.asm:                        ^
+uC-CPU\os_cpu_a.asm(88): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    88 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 8 Errors, 0 Warnings
+compiling os_cpu_c.c...
+Target not created
+Build target 'UCOS_II_V289'
+compiling main.c...
+APP\main.c(19): warning:  #223-D: function "IntDisAll" declared implicitly
+APP\main.c:     IntDisAll();
+APP\main.c:     ^
+APP\main.c: APP\main.c: 1 warning, 0 errors
+compiling os_dbg.c...
+uC-CPU\os_dbg.c(32): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(32): error:  #101: "INT16U" has already been declared in the current scope
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:                    ^
+uC-CPU\os_dbg.c(32): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSDebugEn           = OS_DEBUG_EN;               /* Debug constants are defined below   */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(36): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(36): error:  #101: "INT32U" has already been declared in the current scope
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:                    ^
+uC-CPU\os_dbg.c(36): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT32U  const  OSEndiannessTest    = 0x12345678L;               /* Variable to test CPU endianness     */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(38): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventEn           = OS_EVENT_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(38): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventEn           = OS_EVENT_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(39): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(39): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMax          = OS_MAX_EVENTS;             /* Number of event control blocks      */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(40): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(40): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventNameEn       = OS_EVENT_NAME_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(42): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(42): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventSize         = sizeof(OS_EVENT);          /* Size in Bytes of OS_EVENT           */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(43): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(43): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventTblSize      = sizeof(OSEventTbl);        /* Size of OSEventTbl[] in bytes       */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(48): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(48): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSEventMultiEn      = OS_EVENT_MULTI_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(51): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagEn            = OS_FLAG_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(51): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagEn            = OS_FLAG_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(53): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(53): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagGrpSize       = sizeof(OS_FLAG_GRP);       /* Size in Bytes of OS_FLAG_GRP        */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(54): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(54): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNodeSize      = sizeof(OS_FLAG_NODE);      /* Size in Bytes of OS_FLAG_NODE       */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(55): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(55): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagWidth         = sizeof(OS_FLAGS);          /* Width (in bytes) of OS_FLAGS        */
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(61): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(61): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagMax           = OS_MAX_FLAGS;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c(62): error:  #20: identifier "__root" is undefined
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
+uC-CPU\os_dbg.c:   ^
+uC-CPU\os_dbg.c(62): error:  #65: expected a ";"
+uC-CPU\os_dbg.c:   OS_COMPILER_OPT  INT16U  const  OSFlagNameEn        = OS_FLAG_NAME_EN;
+uC-CPU\os_dbg.c:                            ^
+uC-CPU\os_dbg.c: uC-CPU\os_dbg.c: 0 warnings, 30 errors
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(33): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    33 00000000     PUBLIC  OS_CPU_SR_Save                                      ; Functions declared in this file
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(34): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    34 00000000     PUBLIC  OS_CPU_SR_Restore
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(35): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    35 00000000     PUBLIC  OSStartHighRdy
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(36): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    36 00000000     PUBLIC  OSCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(37): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    37 00000000     PUBLIC  OSIntCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(38): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    38 00000000     PUBLIC  OS_CPU_PendSVHandler
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(53): error: A1163E: Unknown opcode RSEG , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    53 00000000         RSEG CODE:CODE:NOROOT(2)
+uC-CPU\os_cpu_a.asm:                        ^
+uC-CPU\os_cpu_a.asm(88): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    88 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 8 Errors, 0 Warnings
+Target not created
+Build target 'UCOS_II_V289'
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(33): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    33 00000000     PUBLIC  OS_CPU_SR_Save                                      ; Functions declared in this file
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(34): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    34 00000000     PUBLIC  OS_CPU_SR_Restore
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(35): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    35 00000000     PUBLIC  OSStartHighRdy
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(36): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    36 00000000     PUBLIC  OSCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(37): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    37 00000000     PUBLIC  OSIntCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(38): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    38 00000000     PUBLIC  OS_CPU_PendSVHandler
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(53): error: A1163E: Unknown opcode RSEG , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    53 00000000         RSEG CODE:CODE:NOROOT(2)
+uC-CPU\os_cpu_a.asm:                        ^
+uC-CPU\os_cpu_a.asm(88): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    88 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 8 Errors, 0 Warnings
+Target not created
+Build target 'UCOS_II_V289'
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(33): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    33 00000000     PUBLIC  OS_CPU_SR_Save                                      ; Functions declared in this file
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(34): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    34 00000000     PUBLIC  OS_CPU_SR_Restore
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(35): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    35 00000000     PUBLIC  OSStartHighRdy
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(36): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    36 00000000     PUBLIC  OSCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(37): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    37 00000000     PUBLIC  OSIntCtxSw
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(38): error: A1163E: Unknown opcode PUBLIC , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    38 00000000     PUBLIC  OS_CPU_PendSVHandler
+uC-CPU\os_cpu_a.asm:                    ^
+uC-CPU\os_cpu_a.asm(53): error: A1163E: Unknown opcode RSEG , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    53 00000000         RSEG CODE:CODE:NOROOT(2)
+uC-CPU\os_cpu_a.asm:                        ^
+uC-CPU\os_cpu_a.asm(88): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    88 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 8 Errors, 0 Warnings
+Target not created
+Build target 'UCOS_II_V289'
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(53): error: A1163E: Unknown opcode RSEG , expecting opcode or Macro
+uC-CPU\os_cpu_a.asm:    53 00000000         RSEG CODE:CODE:NOROOT(2)
+uC-CPU\os_cpu_a.asm:                        ^
+uC-CPU\os_cpu_a.asm(88): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    88 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 2 Errors, 0 Warnings
+Target not created
+Build target 'UCOS_II_V289'
+assembling os_cpu_a.asm...
+uC-CPU\os_cpu_a.asm(81): error: A1355U: A Label was found which was in no AREA
+uC-CPU\os_cpu_a.asm:    81 00000000 OS_CPU_SR_Save
+uC-CPU\os_cpu_a.asm: 1 Error, 0 Warnings
+Target not created
+Build target 'UCOS_II_V289'
+assembling os_cpu_a.asm...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol IntDisAll (referred from main.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol OSDebugInit (referred from os_core.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TCBInitHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskCreateHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskDelHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskIdleHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskReturnHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskStatHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskSwHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TimeTickHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Not enough information to list image symbols.
+.\Output\obj\UCOS_II_V289.axf: Finished: 1 information, 0 warning and 10 error messages.
+Target not created
+Build target 'UCOS_II_V289'
+compiling main.c...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol OSDebugInit (referred from os_core.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TCBInitHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskCreateHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskDelHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskIdleHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskReturnHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskStatHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TaskSwHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol App_TimeTickHook (referred from os_cpu_c.o).
+.\Output\obj\UCOS_II_V289.axf: Not enough information to list image symbols.
+.\Output\obj\UCOS_II_V289.axf: Finished: 1 information, 0 warning and 9 error messages.
+Target not created
+Build target 'UCOS_II_V289'
+compiling main.c...
+compiling os_tmr.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_cpu_c.c...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Error: L6218E: Undefined symbol OSDebugInit (referred from os_core.o).
+.\Output\obj\UCOS_II_V289.axf: Not enough information to list image symbols.
+.\Output\obj\UCOS_II_V289.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'UCOS_II_V289'
+compiling main.c...
+compiling os_tmr.c...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_cpu_c.c...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=13960 RO-data=536 RW-data=104 ZI-data=5832  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 1 Warning(s).
+Build target 'UCOS_II_V289'
+assembling startup_LPC17xx.s...
+compiling main.c...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=13960 RO-data=536 RW-data=104 ZI-data=5832  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 1 Warning(s).
+Build target 'UCOS_II_V289'
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=13960 RO-data=536 RW-data=104 ZI-data=5832  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 1 Warning(s).
+Build target 'UCOS_II_V289'
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=13960 RO-data=536 RW-data=104 ZI-data=5832  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 1 Warning(s).
+Build target 'UCOS_II_V289'
+compiling main.c...
+APP\main.c(30): error:  #20: identifier "pvArg" is undefined
+APP\main.c:      pvArg=pvArg;
+APP\main.c:      ^
+APP\main.c(37): warning:  #223-D: function "printf" declared implicitly
+APP\main.c:     printf("Hello World!\n");
+APP\main.c:     ^
+APP\main.c: APP\main.c: 1 warning, 1 error
+Target not created
+Build target 'UCOS_II_V289'
+compiling main.c...
+APP\main.c(37): warning:  #223-D: function "printf" declared implicitly
+APP\main.c:     printf("Hello World!\n");
+APP\main.c:     ^
+APP\main.c: APP\main.c: 1 warning, 0 errors
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=16724 RO-data=504 RW-data=116 ZI-data=6076  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 2 Warning(s).
+Build target 'UCOS_II_V289'
+compiling main.c...
+linking...
+.\Output\obj\UCOS_II_V289.axf: Warning: L6306W: '~PRES8 (The user did not require code to preserve 8-byte data objects)' section os_cpu_a.o(OSKernelschedular) should not use the address of 'REQ8 (Code was permitted to depend on the 8-byte aligment of 8-byte data items)' function OSTaskSwHook.
+Program Size: Code=16724 RO-data=504 RW-data=116 ZI-data=6076  
+.\Output\obj\UCOS_II_V289.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+".\Output\obj\UCOS_II_V289.axf" - 0 Error(s), 1 Warning(s).

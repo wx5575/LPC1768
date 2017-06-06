@@ -1,0 +1,58 @@
+*** Creating Trace Output File '.\Output\obj\UCOS_II_V289.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\obj\core_cm3.o"'
+### List of Objects: adding '".\output\obj\startup_lpc17xx.o"'
+### List of Objects: adding '".\output\obj\system_lpc17xx.o"'
+### List of Objects: adding '".\output\obj\hello.o"'
+### List of Objects: adding '".\output\obj\main.o"'
+### List of Objects: adding '".\output\obj\taskcorr.o"'
+### List of Objects: adding '".\output\obj\os_tmr.o"'
+### List of Objects: adding '".\output\obj\os_core.o"'
+### List of Objects: adding '".\output\obj\os_flag.o"'
+### List of Objects: adding '".\output\obj\os_mbox.o"'
+### List of Objects: adding '".\output\obj\os_mem.o"'
+### List of Objects: adding '".\output\obj\os_mutex.o"'
+### List of Objects: adding '".\output\obj\os_q.o"'
+### List of Objects: adding '".\output\obj\os_sem.o"'
+### List of Objects: adding '".\output\obj\os_task.o"'
+### List of Objects: adding '".\output\obj\os_time.o"'
+### List of Objects: adding '".\output\obj\os_cpu_a.o"'
+### List of Objects: adding '".\output\obj\os_cpu_c.o"'
+### List of Objects: adding '".\output\obj\os_dbg.o"'
+### List of Objects: adding '".\output\obj\bsp_gpio.o"'
+### List of Objects: adding '".\output\obj\bsp_timer.o"'
+### List of Objects: adding '".\output\obj\buzzer.o"'
+### List of Objects: adding '".\output\obj\eint.o"'
+### List of Objects: adding '".\output\obj\uart.o"'
+### List of Objects: adding '".\output\obj\key.o"'
+### List of Objects: adding '".\output\obj\move.o"'
+### List of Objects: adding '".\output\obj\keyfuntion.o"'
+### List of Objects: adding '".\output\obj\system_parameter.o"'
+### List of Objects: adding '".\output\obj\lcd.o"'
+### List of Objects: adding '".\output\obj\stringhandle.o"'
+### List of Objects: adding '".\output\obj\datavalue.o"'
+### List of Objects: adding '".\output\obj\delay.o"'
+### List of Objects: adding '".\output\obj\panel.o"'
+### List of Objects: adding '".\output\obj\test.o"'
+### List of Objects: adding '".\output\obj\uart_test.o"'
+### List of Objects: adding '".\output\obj\at24cxx.o"'
+### List of Objects: adding '".\output\obj\readandwrite.o"'
+### List of Objects: adding '".\output\obj\resreadandwrite.o"'
+### List of Objects: adding '".\output\obj\ad.o"'
+### List of Objects: adding '".\output\obj\da.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\obj\core_cm3.o" ".\output\obj\startup_lpc17xx.o" ".\output\obj\system_lpc17xx.o" ".\output\obj\hello.o" ".\output\obj\main.o" ".\output\obj\taskcorr.o" ".\output\obj\os_tmr.o" ".\output\obj\os_core.o" ".\output\obj\os_flag.o" ".\output\obj\os_mbox.o" ".\output\obj\os_mem.o" ".\output\obj\os_mutex.o" ".\output\obj\os_q.o" ".\output\obj\os_sem.o" ".\output\obj\os_task.o" ".\output\obj\os_time.o" ".\output\obj\os_cpu_a.o" ".\output\obj\os_cpu_c.o" ".\output\obj\os_dbg.o" ".\output\obj\bsp_gpio.o" ".\output\obj\bsp_timer.o" ".\output\obj\buzzer.o" ".\output\obj\eint.o" ".\output\obj\uart.o" ".\output\obj\key.o" ".\output\obj\move.o" ".\output\obj\keyfuntion.o" ".\output\obj\system_parameter.o" ".\output\obj\lcd.o" ".\output\obj\stringhandle.o" ".\output\obj\datavalue.o" ".\output\obj\delay.o" ".\output\obj\panel.o" ".\output\obj\test.o" ".\output\obj\uart_test.o" ".\output\obj\at24cxx.o" ".\output\obj\readandwrite.o" ".\output\obj\resreadandwrite.o" ".\output\obj\ad.o" ".\output\obj\da.o" --strict --scatter ".\Output\obj\UCOS_II_V289.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Output\list\UCOS_II_V289.map" -o ".\Output\obj\UCOS_II_V289.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\obj\UCOS_II_V289.axf'
+### ADS-LD Command File: '.\Output\obj\UCOS_II_V289.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\obj\UCOS_II_V289.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\obj\UCOS_II_V289.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

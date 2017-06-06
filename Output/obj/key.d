@@ -1,0 +1,9 @@
+.\output\obj\key.o: DEV\KEY\key.c
+.\output\obj\key.o: DEV\KEY\key.h
+.\output\obj\key.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\key.o: .\BSP\bsp_gpio.h
+.\output\obj\key.o: .\lpc17xx\LPC17xx.h
+.\output\obj\key.o: .\lpc17xx\core_cm3.h
+.\output\obj\key.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\key.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\key.o: DEV\KEY\keyfuntion.h

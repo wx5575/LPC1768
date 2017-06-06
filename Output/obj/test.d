@@ -1,0 +1,14 @@
+.\output\obj\test.o: Test\test.c
+.\output\obj\test.o: Test\test.h
+.\output\obj\test.o: .\BSP\BSP_CpuConfig.h
+.\output\obj\test.o: .\DEV\AT24CXX\readandwrite.h
+.\output\obj\test.o: .\BSP\bsp_gpio.h
+.\output\obj\test.o: .\lpc17xx\LPC17xx.h
+.\output\obj\test.o: .\lpc17xx\core_cm3.h
+.\output\obj\test.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\obj\test.o: .\lpc17xx\system_LPC17xx.h
+.\output\obj\test.o: .\DEV\AT24CXX\at24cxx.h
+.\output\obj\test.o: .\BSP\bsp_timer.h
+.\output\obj\test.o: .\DEV\AD\AD.h
+.\output\obj\test.o: D:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\output\obj\test.o: .\Resource\stringhandle.h
